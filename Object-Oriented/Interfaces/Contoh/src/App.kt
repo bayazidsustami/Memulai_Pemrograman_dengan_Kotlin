@@ -10,8 +10,16 @@ class Bird(override val numberOfWings: Int) : IFly {
     }
 }
 
+class Eagle(override val numberOfWings: Int): IFly{
+    override fun fly() {
+        println("Eagle wings $numberOfWings")
+    }
+}
+
 
 fun main() {
     val bird = Bird(2)
+    val eagle = Eagle(12)
+    eagle.fly()
     bird.fly()
 }

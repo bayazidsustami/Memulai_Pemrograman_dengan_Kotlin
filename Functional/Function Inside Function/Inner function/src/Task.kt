@@ -11,3 +11,8 @@ fun sum(valueA: Int, valueB: Int, valueC: Int): Int {
 
     return valueA + valueB
 }
+
+fun main(){
+    val result = sum(0,2,3)
+    print(result)
+}

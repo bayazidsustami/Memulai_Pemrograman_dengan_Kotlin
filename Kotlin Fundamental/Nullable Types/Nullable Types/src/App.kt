@@ -6,4 +6,5 @@ fun main() {
     if (text != null){
         val textLength = text.length // ready to go
     }
+
 }

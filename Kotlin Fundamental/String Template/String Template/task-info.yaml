@@ -11,5 +11,5 @@ files:
         print("My name is $name, im $old years old")
     }
   learner_created: false
-status: Unchecked
+status: Solved
 record: -1

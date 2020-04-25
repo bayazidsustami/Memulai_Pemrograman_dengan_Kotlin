@@ -1,6 +1,6 @@
 // main function
 fun main() {
-    val color: Color = Color.GREEN
+    val color: Color = Color.RED
 
     print("Position GREEN is ${color.ordinal}")
 }
